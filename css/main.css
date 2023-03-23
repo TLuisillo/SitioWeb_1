@@ -1,0 +1,130 @@
+html,
+body {
+    height: 100vh;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.container {
+    min-height: 100%;
+    margin-bottom: -50px;
+    padding-bottom: 50px;
+}
+
+body {
+    background-image: url(../sources/vec2.jpg);
+    background-repeat: no-repeat;
+}
+
+.navbar {
+    font-size: 18px;
+}
+
+.navbar-brand,
+.navbar .navbar-nav .nav-link {
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.texto-logo {
+    text-align: center;
+    font-size: 22px;
+    color: #7cc5b4;
+    text-decoration: none;
+    font-size: 28px;
+    font-weight: bolder;
+    padding: 5px;
+}
+
+.texto-logo:hover {
+    text-decoration: none;
+    color: black;
+}
+
+.Planet {
+    color: #4c7fba;
+}
+
+.nav-link {
+    color: white;
+    padding: 20px;
+    margin-right: 10px;
+    text-align: center;
+    font-weight: 600;
+}
+
+
+/* MAIN */
+
+main {
+    min-height: calc(100vh - (nav));
+}
+
+.footer {
+    background-color: red;
+    position: absolute;
+    width: 100%;
+    /* Ajusta la altura del foote r según tus necesidades */
+}
+
+.parrafo {
+    color: #d6eddf;
+    font-weight: 600;
+    font-family: monospace;
+}
+
+.row {
+    padding-bottom: 30px;
+}
+
+.color-azul {
+    font-weight: 900;
+    color: #4166a5;
+    font-size: 70px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.imagen {
+    width: 76%;
+    margin: auto;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    border-radius: 1%;
+}
+
+.celular {
+    text-decoration: none;
+    color: white;
+}
+
+.color-aqua {
+    color: #8ee2ce;
+    font-size: 60px;
+    font-weight: 900;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.imagen {
+    font-size: 80px;
+}
+
+.nav-link:hover {
+    border: 2px solid white;
+    color: white;
+}
+
+
+/*  FOOTER SECTION*/
+
+.footer-link {
+    text-decoration: none;
+    color: darkblue;
+    border-radius: 8%;
+    background-color: white;
+    padding: 8px;
+}
+
+footer {
+    opacity: 0.8;
+}
